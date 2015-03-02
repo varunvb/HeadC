@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void fortune_cookie (char msg [])
+
+{
+
+ printf ("Message reads: %s\n", msg);
+ 
+}
+
+int main ()
+
+{
+
+char quote[] = "cookies make you fat";
+
+fortune_cookie(quote);
+}
