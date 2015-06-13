@@ -13,8 +13,6 @@ char *ADS[] = {
    		  "Jed: DBM likes theater, books and dining"
   		};
 
-
-
 int sport_no_bieber(char *s){
 
 return strstr(s, "sports")  && !strstr(s, "bieber");
@@ -37,8 +35,6 @@ int arts_theater_or_dining(char *s) {
 return strstr(s, "arts") || strstr(s, "theater") || strstr (s, "dining");
 
 }
-
-
 void find (int (*match)(char*))
 
 {
